@@ -1,6 +1,6 @@
 # gopher-rss-proxy
 
-proxies gopher url directors as http rss feeds (rudimentary)
+proxies gopher url directories as http rss feeds (rudimentary)
 
 # usage
 ```
