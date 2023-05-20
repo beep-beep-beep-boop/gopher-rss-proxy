@@ -164,8 +164,6 @@ func gopherHandler(uri string) http.HandlerFunc {
 		}
 
 		if res.Body != nil {
-			// TODO: this is not a directory... meaning it can't really be turned into an rss feed.
-			// throw an error?
 			io.WriteString(w, "This is not a directory, cannot be turned into an rss feed!")
 			w.WriteHeader(http.StatusUnprocessableEntity)
 			return
